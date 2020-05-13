@@ -1,0 +1,8 @@
+.mainHeaderIcon {
+	text-align: left;
+	background: url(pratikabu-stt-128.png) no-repeat;
+	text-indent: 60px;
+	display: inline-block;
+	line-height: 50px;
+	background-size: 48px 48px;
+}
