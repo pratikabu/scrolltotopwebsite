@@ -35,6 +35,26 @@
 		
 		<!-- Place this tag in your head or just before your close body tag. -->
 		<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+		<style>
+			li {
+				margin: 7px 0;
+			}
+			.contentHeader-div {
+				float: none;
+			}
+			h1 {
+				font-size: 1.5em;
+			}
+			.mainwidth {
+				width: 600px;
+			}
+			@media screen and (max-width: 630px) {
+				.mainwidth {
+					width: 100%;
+				}
+			}
+		</style>
 	</head>
 	
 	<body class="zeroMargin">
@@ -43,56 +63,47 @@
 				<div>
 					<div>
 						<div class="contentHeader-div"><a href="./" title="Home Page"><span class="contentHeader mainHeaderIcon">Scroll To Top</span></a></div>
-						<div class="documentContent donate-div">
-							<a id="donateButton" title="Scroll To Top is free software, if you like it you can support its progress." href="donate"><b>Donate Now</b></a><br/>
-						</div>
-						<div style="clear: both;"></div>
 					</div>
-					<div class="headerMenuDiv"><ul>
-						<li><a class="menuLink" href="release">Release Notes</a></li>
-						<li><a class="menuLink" href="https://pratikabu.com">Author&#39;s Page</a></li>
-					</ul></div>
 				</div>
 			</div>
 			<div id="mainDiv" class="mainContent" style="width: 100%; padding-top: 10px;">
 				<div>
-					<div align="center">
-						<a href="https://twitter.com/scrolltotop" class="twitter-follow-button" data-show-screen-name="false" data-show-count="false">Follow @scrolltotop</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-						<a class="github-button" href="https://github.com/pratikabu/scrolltotop" data-icon="octicon-star" aria-label="Star pratikabu/scrolltotop on GitHub">Star</a>
-						<a class="github-button" href="https://github.com/pratikabu/scrolltotop/fork" data-icon="octicon-repo-forked" aria-label="Fork pratikabu/scrolltotop on GitHub">Fork</a>
-						<a class="github-button" href="https://github.com/pratikabu/scrolltotop/issues" data-icon="octicon-issue-opened" aria-label="Issue pratikabu/scrolltotop on GitHub">Issue</a>
+					<div>
+						<a class="github-button" href="https://github.com/pratikabu/scrolltotop" data-size="large" aria-label="Star pratikabu/scrolltotop on GitHub">GitHub</a>
+						<a href="https://twitter.com/scrolltotop?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-dnt="true" data-show-count="false">Follow @scrolltotop</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 					</div>
 					
-					<div class="topic"><h2>Brief</h2></div>
-					
-					<p class="documentContent">Everyday scrolling on long pages can be a tiring experience specially on those sites which provides infinite scrolling (like <a href="https://facebook.com">facebook</a>, <a href="https://twitter.com">twitter</a>, etc). You will keep scrolling using your mouse to see more and more updates and then when you want to go up to the top of the page, you might move your hand from your mouse to keyboard to search for Home key or you will drag the scroll bar to the top.</p>
+					<div class="topic"><h1>Brief</h1></div>
 
-					<p class="documentContent">Scroll To Top tries to minimizie this effort by providing an intutive icon at the bottom-right corner of each page so that with one click you will be at the top of the page with beautiful animation. No more searching for Home key on your keyboard and no more dragging of the scroll bar. It will be just fun and ergonomic to use it.</p>
-					
-					<div class="topic"><h2>What is Scroll To Top?</h2></div>
+					<p class="documentContent">Scroll to top and vice versa in a window.</p>
+
+					<ul>
+						<li>See <a href="release">Release Notes</a></li>
+						<li>Report an <a target="_blank" href="https://github.com/pratikabu/scrolltotop/issues">Issue</a></li>
+					</ul>
 	
-					<p class="documentContent">Scroll To Top is a <a href="https://en.wikipedia.org/wiki/Browser_extension">browser extension</a> available for all major browsers. You can install it for your favorite browser with just one click. It adds an image at the bottom-right corner of your browser screen in case the page is scrollable. Of course you can configure the location of the icon. You can customize almost all aspects of this extension and yeah also it provides lots of features to make scrolling interesting, just go to settings page anytime. I've worked really hard to make it simple, safe, and 100% free.</p>
-					
-					<p class="documentContent">Checkout <a href="release">release notes</a> for what's new.</p>
-	
-					<div id="install" class="topic" style="margin-bottom: 15px;"><h2>Downloads</h2></div>
-					<div align="center">
-						<table cellspacing="15px" class="tableClass">
-							<tr>
-								<td align="center" class="documentContent">Download for your favorite browser</td>
-							</tr>
-							<tr>
-								<td align="center" style="vertical-align: middle;">
-									<a target="_blank" href="https://addons.mozilla.org/en-US/firefox/addon/scroll-to-top?src=external-mysite" alt="Download for Mozilla Firefox" title="Download for Mozilla Firefox" class="download-icon-margin"><img class="download-icon" src="res/firefox.svg" /></a>
-									<a target="_blank" href="https://chrome.google.com/webstore/detail/scroll-to-top/hegiignepmecppikdlbohnnbfjdoaghj" alt="Download for Google Chrome" title="Download for Google Chrome" class="download-icon-margin"><img class="download-icon" src="res/chrome.svg" /></a>
-									<a target="_blank" href="http://pratikabu.users.sourceforge.net/extensions/scrolltotop/safaridownload.php" alt="Download for Safari" title="Download for Safari" class="download-icon-margin"><img class="download-icon" src="res/safari.png" /></a>
-									<a target="_blank" href="https://addons.opera.com/en/extensions/details/scroll-to-top" alt="Download for Opera" title="Download for Opera"><img class="download-icon" src="res/opera.svg" /></a>
-								</td>
-							</tr>
-						</table>
+					<div class="topic"><h1>Download</h1></div>
+					<div class="documentContent">
+						<ul>
+							<li>Download for <a target="_blank" href="https://chrome.google.com/webstore/detail/scroll-to-top/hegiignepmecppikdlbohnnbfjdoaghj">Google Chrome</a> <img valign="middle" src="https://img.shields.io/chrome-web-store/v/hegiignepmecppikdlbohnnbfjdoaghj?label=%20"></li>
+							<li>Download for <a target="_blank" href="https://addons.mozilla.org/en-US/firefox/addon/scroll-to-top?src=external-mysite">Mozilla Firefox</a> <img valign="middle" src="https://img.shields.io/amo/v/scroll-to-top?label=%20"></li>
+							<li>Download for <a target="_blank" href="https://addons.opera.com/en/extensions/details/scroll-to-top">Opera Browser</a></li>
+							<li>Download for <a target="_blank" href="http://pratikabu.users.sourceforge.net/extensions/scrolltotop/safaridownload.php">Safari</a> (Obsolete)</li>
+							<li>Download latest <a href="https://github.com/pratikabu/scrolltotop/archive/master.zip">Source Code</a></li>
+						</ul>
 					</div>
-	
-					<p align="justify" class="documentContent">Scroll To Top is an open source project hosted on <a href="https://github.com/pratikabu/scrolltotop">GitHub</a>.</p>
+
+					<div class="topic"><h1>Contribute</h1></div>
+					<div class="documentContent">
+						<ul>
+							<li>Spread the word by sharing this website.</li>
+							<li>Rate the extension on <a target="_blank" href="https://chrome.google.com/webstore/detail/scroll-to-top/hegiignepmecppikdlbohnnbfjdoaghj/reviews">Chrome</a>, <a target="_blank" href="https://addons.mozilla.org/en-US/firefox/addon/scroll-to-top">Firefox</a>, <a target="_blank" href="https://addons.opera.com/en/extensions/details/scroll-to-top#feedback-container">Opera</a> galleries.</li>
+							<li>Support development by <a target="_blank" href="donate">Donating</a>.</li>
+							<li>Help me translate the addon.</li>
+						</ul>
+					</div>
+
+					<p>Read more about the <a target="_blank" href="https://pratikabu.com">author</a>.</p>
 				
 					<!-- Disqus Tags -->
 					<!--<div id="disqus_header" align="left" class="topic"><h2>Discuss with Community</h2></div>
@@ -110,6 +121,9 @@
 							})();
 						</script>
 						<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+					</div>-->
+					<!--<div id="tweetsDiv">
+						<blockquote class="twitter-tweet" data-width="500" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Hi All, Hope you are staying safe. Read this blog post about Scroll To Top&#39;s future path on privacy. Feedbacks are welcome.<a href="https://t.co/rQ1zNLsf54">https://t.co/rQ1zNLsf54</a></p>&mdash; Scroll To Top (@scrolltotop) <a href="https://twitter.com/scrolltotop/status/1262166026424332290?ref_src=twsrc%5Etfw">May 17, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 					</div>-->
 				</div>
 			</div>
