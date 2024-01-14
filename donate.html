@@ -63,11 +63,10 @@
 		</div>
 
 		<script>
-			const url = "https://www.paypal.me/paypratik/";
-			const button = document.getElementById("donate-btn");
-			button.addEventListener("click", (event) => {
-				const amount = document.getElementById("amount-txt").value;
-				window.location.href = url + amount;
+			document.getElementById("donate-btn").addEventListener("click", (event) => {
+				let amount = document.getElementById("amount-txt").value;
+				if(!amount || isNaN(amount) || 2 > parseInt(amount)) amount = '10';
+				window.location.href = "https://www.paypal.me/paypratik/" + amount;
 			});
 		</script>
 	</body>
